@@ -2,13 +2,12 @@ body {
     margin: 0;
     font-family: Ammys Handwriting;
     font-size: 15px;
-    line-height: 1.6; 
+    line-height: 1.6;
     /* межстрочный отступ */
     color: #333;
     background-image: url("../img/W.jpg");
     background-repeat: repeat;
     background-attachment: fixed;
-    
 }
 
 /* псевдо элементы */
@@ -147,7 +146,6 @@ table {
     left: 400px;
     right: 0;
     z-index: 1000;
-    
 }
 
 .img_fon {

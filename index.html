@@ -31,23 +31,36 @@
         </div>
     </div>
 </div>
-<div class="carousel">
-    <button class="button_next">&#187;</button>
-    <button class="button_prev">&#171;</button>
-    <ul class="slides">
-        <li>
-            <img class="slide" src="img/bag_1.jpg">
-        </li>
-        <li>
-            <img class="slide" src="img/bag_2.jpg">
-        </li>
-        <li>
-            <img class="slide" src="img/bag_3.jpg">
-        </li>
-        <li>
-            <img class="slide" src="img/bag_4.jpg">
-        </li>
-    </ul>
+<div class="all">
+    <input checked type="radio" name="respond" id="desktop">
+        <article id="slider">
+                <input checked type="radio" name="slider" id="switch1">
+                <input type="radio" name="slider" id="switch2">
+                <input type="radio" name="slider" id="switch3">
+                <input type="radio" name="slider" id="switch4">
+            <div id="slides">
+                <div id="overflow">
+                    <div class="image">
+                        <article><img src="img/bag_1.jpg"></article>
+                        <article><img src="img/bag_2.jpg"></article>
+                        <article><img src="img/bag_3.jpg"></article>
+                        <article><img src="img/bag_4.jpg"></article>
+                    </div>
+                </div>
+            </div>
+            <div id="controls">
+                <label for="switch1"></label>
+                <label for="switch2"></label>
+                <label for="switch3"></label>
+                <label for="switch4"></label>
+            </div>
+            <div id="active">
+                <label for="switch1"></label>
+                <label for="switch2"></label>
+                <label for="switch3"></label>
+                <label for="switch4"></label>
+            </div>
+        </article>
 </div>
 </body>
 </html>
